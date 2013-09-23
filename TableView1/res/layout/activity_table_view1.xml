@@ -1,0 +1,96 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/simple_table"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="0,1,2,3,4,5" >
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#000" >
+
+        <TextView
+            android:id="@+id/textView1a"
+            android:layout_width="10dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="1dp"
+            android:background="#cccccc"
+            android:text="Weight "
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#00F" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/textView2a"
+            android:layout_width="10dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="1dp"
+            android:background="#cccccc"
+            android:paddingBottom="1dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#00F" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/textView3a"
+            android:layout_width="10dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="1dp"
+            android:background="#cccccc"
+            android:paddingBottom="1dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#00F" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/textView4a"
+            android:layout_width="10dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="1dp"
+            android:background="#cccccc"
+            android:gravity="left"
+            android:paddingBottom="1dp"
+            android:text="Age in "
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#00F" />
+
+        <TextView
+            android:id="@+id/textView5a"
+            android:layout_width="10dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="1dp"
+            android:background="#cccccc"
+            android:gravity="left"
+            android:paddingBottom="1dp"
+            android:text="Years"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#00F" />
+
+        <TextView
+            android:id="@+id/textView6a"
+            android:layout_width="10dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="1dp"
+            android:background="#cccccc"
+            android:paddingBottom="1dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#00F" >
+        </TextView>
+    </TableRow>
+
+    <include layout="@layout/sample1" />
+
+    <include layout="@layout/sample2" />
+
+    <include layout="@layout/sample3" />
+
+    <include layout="@layout/sample4" />
+
+    <include layout="@layout/sample5" />
+
+    <include layout="@layout/sample6" />
+
+</TableLayout>

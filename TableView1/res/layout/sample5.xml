@@ -1,0 +1,117 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/simple_table5"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="0,1,2,3,4,5" >
+
+    <TableRow
+        android:id="@+id/tableRow25"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#000" >
+
+        <TextView
+            android:id="@+id/textView1f"
+            android:layout_width="10dp"
+            android:layout_height="20dp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="1dp"
+            android:background="#cccccc"
+            android:text="55-59"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#00F" >
+        </TextView>
+
+        <RelativeLayout
+            android:id="@+id/r51"
+            android:layout_width="10dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="1dp"
+            android:background="#92D14F"
+            android:paddingBottom="1dp" >
+
+            <ImageView
+                android:id="@+id/i51"
+                android:layout_width="10dp"
+                android:layout_height="15dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/arrow"
+                android:visibility="invisible" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/r52"
+            android:layout_width="10dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="1dp"
+            android:background="#92D14F"
+            android:paddingBottom="1dp" >
+
+            <ImageView
+                android:id="@+id/i52"
+                android:layout_width="10dp"
+                android:layout_height="15dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/arrow"
+                android:visibility="invisible" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/r53"
+            android:layout_width="10dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="1dp"
+            android:background="#FFC000"
+            android:paddingBottom="1dp" >
+
+            <ImageView
+                android:id="@+id/i53"
+                android:layout_width="10dp"
+                android:layout_height="15dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/arrow"
+                android:visibility="invisible" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/r54"
+            android:layout_width="10dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="1dp"
+            android:background="#FFC000"
+            android:paddingBottom="1dp" >
+
+            <ImageView
+                android:id="@+id/i54"
+                android:layout_width="10dp"
+                android:layout_height="15dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/arrow"
+                android:visibility="invisible" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/r55"
+            android:layout_width="10dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="1dp"
+            android:background="#FFC000"
+            android:paddingBottom="1dp" >
+
+            <ImageView
+                android:id="@+id/i55"
+                android:layout_width="10dp"
+                android:layout_height="15dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/arrow"
+                android:visibility="invisible" />
+        </RelativeLayout>
+    </TableRow>
+
+</TableLayout>
